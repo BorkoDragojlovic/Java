@@ -21,5 +21,10 @@ public class SamsungTv implements Tv {
 	public void volumeUP() {
 		_volume++;
 	}
+	
+	@Override
+	public void volumeDown() {
+		_volume--;
+	}
 }
 
